@@ -1,0 +1,11 @@
+echo "Hello, GitHub!" > hello.txt 
+git add hello.txt
+git commit -m "Add hello.txt" 
+git push origin main
+git checkout -b feature-branch
+echo "This is a new feature!" >> hello.txt
+git checkout -b feature-branch
+echo "This is a new feature!" >> hello.txt
+git add hello.txt
+git commit -m "Update hello.txt with a new feature"
+git push origin feature-branch
